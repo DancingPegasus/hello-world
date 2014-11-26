@@ -1,4 +1,4 @@
 hello-world
 ===========
 
-Created entirely just for practice.
+I made this just for practice.
