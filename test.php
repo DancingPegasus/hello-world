@@ -1,14 +1,21 @@
 <?php
 
+$passed = false;
 $age = 12;
 
-if (!$age >= 13)
+if ($age >= 13)
 {
-   echo "Sorry. You are too young to sign up with this site.";
+   $passed = true;
+   //do a bunch of other stuff
+}
+
+if ($passed)
+{
+   echo "Sign up successful!";  
+   
 }
 else
 {
-   echo "Welcome to the site!";
+   echo "Sorry! Couldn't sign you up.";
 }
-
 ?>
